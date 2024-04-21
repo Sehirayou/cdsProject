@@ -1,3 +1,7 @@
+import sys
+
+st.markdown(sys.version)
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
