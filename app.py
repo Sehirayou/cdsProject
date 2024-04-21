@@ -1,3 +1,4 @@
+import streamlit as st
 import sys
 
 st.markdown(sys.version)
@@ -16,7 +17,8 @@ import warnings
 warnings.filterwarnings('ignore')
 from PIL import Image
 #import cv2  # Make sure to import cv2 if needed
-import streamlit as st
+
+
 import numpy as np
 np.random.seed(42)
 import tensorflow as tf
